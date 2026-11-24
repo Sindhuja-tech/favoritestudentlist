@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { StudentProvider } from './StudentContext';
 import Navbar from './components/Navbar';
 import StudentListPage from './pages/StudentListPage';
